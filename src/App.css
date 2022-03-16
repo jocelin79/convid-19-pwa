@@ -2,19 +2,3 @@
   margin: 0;
   padding: 0;
 }
-
-.header{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:10vh;
-  background-color: blueviolet;
-}
-
-button{
-  width: 6rem;
-  text-align: center;
-  height:4vh;
-  cursor: pointer;
-  font-weight: bold;
-}

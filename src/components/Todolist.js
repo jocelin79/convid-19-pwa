@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Todolist.css';
+import './Todolist.css'
 
 export default () => {
   
@@ -23,5 +23,5 @@ export default () => {
         </ul>
       </div>
     </div>
-  );
+  )
 }

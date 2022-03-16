@@ -1,18 +1,23 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Link } from 'react-router-dom'
+import Main_routes from './components/Main_routes'
 import './App.css'
-// import tmdb from './tmdb'
-import Todolist from './components/Todolist'
 
 export default () => {
-
-  const [todolist, setTodolist] = useState(false)
-
   return (
-    <div className="App">
-      <div className="header">
-        <button onClick={(e) => {todolist ? setTodolist(false) : setTodolist(true)}}>To Do List</button>
-      </div>
-      {todolist ? <Todolist/> : ""}
-    </div>
+    <Router>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/todolist">Todolist</Link>
+        </li>
+        <li>
+          <Link to="/contato">Contato</Link>
+        </li>
+      </ul>
+      <Main_routes/>  
+    </Router>
   )
 }
