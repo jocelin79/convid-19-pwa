@@ -1,23 +1,14 @@
-import React, { useState } from 'react'
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Nav_bar from './components/Nav_bar'
 import Main_routes from './components/Main_routes'
 import './App.css'
 
 export default () => {
   return (
     <Router>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/todolist">Todolist</Link>
-        </li>
-        <li>
-          <Link to="/contato">Contato</Link>
-        </li>
-      </ul>
-      <Main_routes/>  
+      <Nav_bar />
+      <Main_routes />
     </Router>
   )
 }

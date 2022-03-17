@@ -1,13 +1,13 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
-import Home from './Home'
+import Theme_switcher from './Theme_switcher'
 import Todolist from './Todolist'
 import Contato from './Contato'
 
 export default () => {
   return(
   <Routes>
-    <Route path="/" element={<Home />}>
+    <Route path="/" element={<Theme_switcher />}>
     </Route>
     <Route path="/todolist" element={<Todolist />}>
     </Route>
