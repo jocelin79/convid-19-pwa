@@ -4,9 +4,22 @@
     "baseUrl": "src",
     "jsx": "react",
     "paths": {
+       
       "components:/*": [
-        "./components"
-      ]
+        "./components/*"
+      ],
+       
+      "containers:/*": [
+        "./containers/*"
+      ],
+       
+      "assets:/*": [
+        "./assets/*"
+      ],
+       
+      "commons:/*": [
+        "./commons/*"
+      ],
     }
   }
 }
