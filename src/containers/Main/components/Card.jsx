@@ -7,12 +7,12 @@ import {
   CardContentStyled
 } from './style'
 
-function Card({value, lable, color}) {
+function Card({value, label, color}) {
   return (
     <CardUI>
       <CardContentStyled color={color}>
         <ValueStyled>{value}</ValueStyled>
-        <LabelStyled>{lable}</LabelStyled>
+        <LabelStyled>{label}</LabelStyled>
       </CardContentStyled>
     </CardUI>
   )

@@ -1,4 +1,5 @@
-import {Card, CardContent} from './Card'
+import Card from './Card'
+import CardContent from './CardContent'
 import Button from './Button'
 import Grid from './Grid'
 import Typography from './Typography'
