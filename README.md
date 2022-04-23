@@ -1,4 +1,4 @@
-# Covid-19-pwa
+# Covid 19 - pwa
 
 <p align="center">
   <img alt="covid-19-pwa" src="github/preview.png" width="100%">
