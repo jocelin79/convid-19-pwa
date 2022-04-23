@@ -1,1 +1,1 @@
-# convid19-api
+# covid-19-pwa
